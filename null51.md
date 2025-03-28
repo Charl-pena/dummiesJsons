@@ -13,3 +13,7 @@ $env:MAVEN_HOME = "C:\Tools\apache-maven-3.9.6"
 
 $env:Path += ";$env:MAVEN_HOME\bin"
 [System.Environment]::SetEnvironmentVariable("Path", $env:Path, [System.EnvironmentVariableTarget]::Machine)
+
+# Links
+
+https://github.com/orgs/community/discussions/155273
