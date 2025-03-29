@@ -19,11 +19,11 @@ $env:Path += ";$env:MAVEN_HOME\bin"
 (https://github.com/codec-abc/Yew-WebRTC-Chat)
 
 # Maven dependencias
-"""
+```
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j</artifactId>
     <version>2.24.3</version>
     <type>pom</type>
 </dependency>
-"""
+```
