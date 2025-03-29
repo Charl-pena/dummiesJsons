@@ -18,5 +18,11 @@ $env:Path += ";$env:MAVEN_HOME\bin"
 
 (https://github.com/codec-abc/Yew-WebRTC-Chat)
 
+# Maven dependencias
 
-eyJpY2VfY2FuZGlkYXRlcyI6W10sIm9mZmVyIjoie1wic2RwXCI6XCJ2PTBcXHJcXG5vPS0gNTM4Mjg1MzE0ODE0MDM4NTg5MCAyIElOIElQNCAxMjcuMC4wLjFcXHJcXG5zPS1cXHJcXG50PTAgMFxcclxcbmE9Z3JvdXA6QlVORExFIDBcXHJcXG5hPWV4dG1hcC1hbGxvdy1taXhlZFxcclxcbmE9bXNpZC1zZW1hbnRpYzogV01TXFxyXFxubT1hcHBsaWNhdGlvbiA5IFVEUC9EVExTL1NDVFAgd2VicnRjLWRhdGFjaGFubmVsXFxyXFxuYz1JTiBJUDQgMC4wLjAuMFxcclxcbmE9aWNlLXVmcmFnOkx2bFNcXHJcXG5hPWljZS1wd2Q6RWpDOURhVmpMeWg1Y0xvVFUxZzhCK2lXXFxyXFxuYT1pY2Utb3B0aW9uczp0cmlja2xlXFxyXFxuYT1maW5nZXJwcmludDpzaGEtMjU2IDI1OjIyOkMzOkQ4OjU5OjEzOjI0OjdGOjVBOjMzOkI0OkUwOkFGOjEyOjlEOkFEOjAxOjBEOkY3OjU4OjJGOjRGOjVFOkI5OjI3OjBFOjRBOkFCOkVBOjhGOkE1OkY1XFxyXFxuYT1zZXR1cDphY3RwYXNzXFxyXFxuYT1taWQ6MFxcclxcbmE9c2N0cC1wb3J0OjUwMDBcXHJcXG5hPW1heC1tZXNzYWdlLXNpemU6MjYyMTQ0XFxyXFxuXCIsXCJ0eXBlXCI6XCJvZmZlclwifSJ9
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>2.24.3</version>
+    <type>pom</type>
+</dependency>
